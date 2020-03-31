@@ -1,18 +1,54 @@
 body{
     font-family: 'roboto',sans-serif;
+    background-color:#f4f4f4;
+}
+
+#logo{
+ float:left;   
 }
 
 h1{
     font-family: 'Liu Jian Mao Cao', cursive , sans-serif;
+    text-align: center;
+    
 }
 
 
 h2{
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
 
 }
 
-p
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: black;  
+}
+
+nav{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    
+}
+
+li{
+   list-style-type: none; 
+}
+
+
+
+
+
+
 
 
 
