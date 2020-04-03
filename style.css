@@ -1,62 +1,63 @@
 body{
     font-family: 'roboto',sans-serif;
-    background-color:#f4f4f4;
+    background-color:#f4f7f6;
 }
 
 #logo{
- float:left;   
+ 
+ text-align: ;
+
 }
 
+.entete{
+    text-align: center;
+    background: #1D1D1D;
+    color: white;
+
+}
 h1{
     font-family: 'Liu Jian Mao Cao', cursive , sans-serif;
-    text-align: center;
-    box-shadow:0px 8px 5px black ;
-    text-shadow: 3px 4px 3px black;
     font-size: xx-large;
 }
-
-#f4F7F6
-
-
-
 
 h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-style: italic;
-    text-decoration: underline;
-  
-   
-    
+    text-decoration: underline;  
+    font-size: 1.5em;  
+}
+
+h3{
+    font-size: 1.5em;
 }
 
 p{
     text-align: justify;
 }
 
+section{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: black; 
-    text-shadow: 3px 4px 3px black; 
+    text-shadow: 0px, 3px ,1px ,-1p, black;
+    font-size: 1.1em;
+   
    
 }
 
 a:hover{
-    color:#f4f4f4;
+   font-weight: bold;
 }
-
-a:active{
-    color:#f4f4f4;
-}
-
-a:focus{
-    color:#f4f4f4;
-
-}
-
 
 nav{
     text-align: center;
+    background: white;
+    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0,5);
+    font-size: 1.1em;
 }
 
 ul{
@@ -66,6 +67,19 @@ ul{
 
 li{
    list-style-type: none; 
+}
+
+                 /* contact */
+#contact{
+    border: 1px black solid;
+    border-radius: 15px;
+
+}
+
+footer{
+    background: #1d1d1d;
+    color: white;
+    text-align: center;
 }
 
 
