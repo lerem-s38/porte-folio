@@ -25,8 +25,9 @@ h2{
     font-weight: normal;
     font-style: italic;
     text-decoration: underline;  
-    font-size: 1.5em;  
-}
+    font-size: 1.5em; 
+    width: 400px; 
+   
 
 h3{
     font-size: 1.5em;
@@ -53,12 +54,15 @@ a:hover{
    font-weight: bold;
 }
 
+
 nav{
     text-align: center;
     background: white;
     box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0,5);
     font-size: 1.1em;
+    
 }
+
 
 ul{
     padding: 0;
@@ -67,6 +71,7 @@ ul{
 
 li{
    list-style-type: none; 
+   display: inline;
 }
 
                  /* contact */
