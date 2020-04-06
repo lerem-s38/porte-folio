@@ -36,16 +36,63 @@ h1{
 
 }
 
+#projets{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    justify-content: space-between;
 
+    
+
+
+}
 .projet{
+    width: 400px;
+    margin: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-bottom: 10px;
+    border: 0px black solid;
+    border-radius: 10px  ;
+    overflow:hidden ;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+
+
+   
+}
+
+.projet:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: 0.3;
+}
+
+.projet img{
+    min-width: 400px;
+    height: 266px ;
+    
+    
+
 
 }
 
 .picture{
-
+    width: 400px;
+    height:266px ;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
 }
 
-.date du projet{
+.projet span{
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+
+
+}
+.projet.dateduprojet{
+    font-size:0.7em ;
 
 }
 
